@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title> LEDjockey </title>
+		<nav class="navbar navbar-default" role="navigation">
+		  <div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="#">LEDjockey</a>
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav">
+		        <li class="active"><a href="#">About</a></li>
+		      </ul>
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a href="#">v0.0.2</a></li>
+		        </li>
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+	</head>
+	<body>
+		<div class="container">
+			<div class="panel panel-default">
+	  			<div class="panel-heading">
+	    			<h3 class="panel-title">Control panel</h3>
+				</div>
+	  			<div class="panel-body">
+	  				<p>Turn on the lights, then control the color.</p>
+		  			<div class="btn-group">
+	  					<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+	    					Mode <span class="caret"></span>
+	 					 </button>
+	  					<ul class="dropdown-menu" role="menu">
+						    <li><a href="#steady">Steady</a></li>
+						    <li><a href="#flash">Flash</a></li>
+						    <li><a href="#ramp">Ramp</a></li>
+						    <li class="divider"></li>
+						    <li><a href="#crazy">Experimental</a></li>
+	  					</ul>
+  					</div>
+  					<button type="button" class="btn btn-primary">LEDs on</button>
+  					<button type="button" class="btn btn-default">LEDs off</button>
+  					<hr>
+  					<p>Color selection</p>
+  					<button type="button" class="btn btn-primary">Blue</button>
+  					<button type="button" class="btn btn-info">James' favorite</button>
+  					<button type="button" class="btn btn-success">Green</button>
+  					<button type="button" class="btn btn-warning">Yellow</button>
+  					<button type="button" class="btn btn-danger">Red</button>
+  					<button type="button" class="btn btn-default">Fuschia</button>
+				</div>
+			</div>
+		</div>
+	</body>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular-touch.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+</script>
+</html>
